@@ -1,0 +1,19 @@
+.copyright{
+  font-style: italic;
+  color: #BD93F9;
+}
+
+.header{
+   float: right;
+   color: #69FF94;
+}
+.body{
+  background-color:#282A36;
+}
+.question {
+color: #FF79C6;
+}
+
+.answer{
+ color: #8BE9FD;
+}
