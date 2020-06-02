@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="scripting.js"></script>
+    <title>SEG3125 Grocery Store</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="groceryStore.css"
+      media="screen"
+    />
+  </head>
+  <body onload="initItems()">
+    <div class="groceryHeader">
+      <h1>SEG3125 Grocery Store</h1>
+    </div>
+    <div class="navbar">
+      <a onclick="showClient()" class="active">Client</a>
+      <a onclick="showStore()">Store</a>
+      <a onclick="showCart()">Cart</a>
+    </div>
+
+    <div id="client">
+      <h1 class="clientHeader">Client</h1>
+      <form class="foodOptions" onChange="filter()" action="/action_page.php">
+        <label>Food Filters:</label>
+        <select id="foodFilter">
+          <option value="None">None</option>
+          <option value="Vegetarian">Vegetarian</option>
+          <option value="Gluten-Free">Gluten-Free</option>
+          <option value="VegetarianAndGluten-Free">Vegetarian & Gluten-Free</option>
+        </select>
+      </form>
+      <br/>
+      <form id="organicOrNah" class="organicFoods" action="/action_page.php">
+        <input onChange="filter()" type="checkbox" name="vehicle1" value="Bike">
+        <label for="vehicle1">Organic Foods Only</label><br>
+        </form>
+      <p>
+        If you have any particularities with food, feel free to filter our
+        store!
+      </p>
+    </div>
+
+    <div id="store" class="store">
+      <h1 class="storeHeader">Store</h1>
+      <div class="listOfItems" id="listOfItems"></div>
+      <button onClick="addToCart()" type="button">Purchase</button>
+    </div>
+
+    <div id="cart">
+      <ul id="cartList" class="cartList">
+        <h1 class="cartHeader">Cart</h1>
+      </ul>
+      <p id="totalCost"></p>
+    </div>
+    <div class="copyright">
+      <footer>
+        Designed By: Nathan Embaye
+      </footer>
+    </div>
+  </body>
+</html
