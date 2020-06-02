@@ -1,0 +1,66 @@
+/*  “Code for nav barinspired by .......... https://www.w3schools.com/css/css_navbar.asp ".*/
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 111%;
+  left: 0px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  background-color: #0000ff;
+}
+
+.groceryHeader {
+  margin-top: -30px;
+  width: 50%;
+  float: right;
+}
+
+.listOfItems {
+  margin-top: -10px;
+}
+
+.foodWarning {
+  top: 60px;
+}
+
+.storeHeader {
+  margin-top: -50px;
+}
+
+.clientHeader {
+  margin-top: 120px;
+}
+
+.foodOptions {
+  margin-top: 50px;
+}
+
+.cartHeader {
+  margin-top: -150px;
+  width: 50%;
+}
+
+.cartList {
+  width: 200px;
+  margin-top: -75px;
+  margin: 100 auto;
+  position: absolute;
+}
+
+.copyright {
+  margin-top: 180px;
+  position: absolute;
+}
