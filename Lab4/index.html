@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SEG3125 - Module 4</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="jumbotron text-center">
+      <h1 style="display: inline; color: black;">
+        BayStreet Hairdressing
+      </h1>
+      <img src="hair.png" width="200" height="200" />
+      <h4 style="display: inline; color: black;">
+        99 Bank St.
+      </h4>
+    </div>
+    <div class="container">
+      <h2 style="color: black;">BayStreet Haircuts</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+              <img src="long.jpg" alt="Lights" style="width: 100%;" />
+              <div class="caption">
+                <p>
+                  Long Cut
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+              <img src="medium.jpg" alt="Nature" style="width: 100%;" />
+              <div class="caption">
+                <p>
+                  Moderate Cut
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+              <img src="short.jpg" alt="Fjords" style="width: 100%;" />
+              <div class="caption">
+                <p>
+                  Short Cut
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Book an Appointment</h2>
+      <p>
+        Please select your treatment type, date, time and fill out your contact
+        information.
+      </p>
+      <div class="panel-group">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" href="#collapse1">Treatments</a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse">
+            <div class="panel-body">
+              <input
+                type="checkbox"
+                id="Haircut"
+                name="Haircut"
+                value="Haircut"
+              />
+              Long Cut - 14.99
+            </div>
+            <div class="panel-body">
+              <input
+                type="checkbox"
+                id="Beard trim"
+                name="Beard trim"
+                value="Beard trim"
+              />
+              Moderate Cut - 6.99
+            </div>
+            <div class="panel-body">
+              <input
+                type="checkbox"
+                id="Haircut and Beard trim"
+                name="Haircut and Beard trim"
+                value="Haircut and Beard trim"
+              />
+              Short Cut- 19.99
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" href="#collapse2">Date</a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+              <input type="checkbox" id="Monday" name="Monday" value="Monday" />
+              Monday June 15th, 2020
+            </div>
+            <div class="panel-body">
+              <input
+                type="checkbox"
+                id="Tuesday"
+                name="Tuesday"
+                value="Tuesday"
+              />
+              Tuesday June 16th, 2020
+            </div>
+            <div class="panel-body">
+              <input
+                type="checkbox"
+                id="Wednesday"
+                name="Wednesday"
+                value="Wednesday"
+              />
+              Wednesday June 17th, 2020
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" href="#collapse3">Time</a>
+            </h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">
+              <input
+                type="checkbox"
+                id="8:00 A.M."
+                name="8:00 A.M."
+                value="8:00 A.M."
+              />
+              8:00 A.M.
+            </div>
+            <div class="panel-body">
+              <input
+                type="checkbox"
+                id="9:00 A.M."
+                name="9:00 A.M."
+                value="9:00 A.M."
+              />
+              9:00 A.M.
+            </div>
+            <div class="panel-body">
+              <input
+                type="checkbox"
+                id="10:00 A.M."
+                name="10:00 A.M."
+                value="10:00 A.M."
+              />
+              10:00 A.M.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" href="#collapse4">Hairdressers</a>
+            </h4>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse">
+            <div class="panel-body">
+              <input
+                type="checkbox"
+                id="8:00 A.M."
+                name="8:00 A.M."
+                value="8:00 A.M."
+              />
+              Matty Conrad
+              <a
+                href="https://www.instagram.com/mattyconrad/?utm_source=ig_embed"
+                >(Who am I?)</a
+              >
+            </div>
+            <div class="panel-body">
+              <input
+                type="checkbox"
+                id="9:00 A.M."
+                name="9:00 A.M."
+                value="9:00 A.M."
+              />
+              J. Clark Walker
+              <a
+                href="https://www.instagram.com/jclarkwalker/?utm_source=ig_embed"
+                >(Who am I?)
+              </a>
+            </div>
+            <div class="panel-body">
+              <input
+                type="checkbox"
+                id="10:00 A.M."
+                name="10:00 A.M."
+                value="10:00 A.M."
+              />
+              Chris McMillan
+              <a
+                href="https://www.instagram.com/themensgroomer/?utm_source=ig_embed"
+              >
+                (Who am I?)
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form class="form-horizontal" action="/action_page.php">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">First Name:</label>
+          <div class="col-sm-10">
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Nathan"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">Last Name:</label>
+          <div class="col-sm-10">
+            <input
+              type="password"
+              class="form-control"
+              id="pwd"
+              placeholder="Embaye"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">Cell Number:</label>
+          <div class="col-sm-10">
+            <input
+              type="password"
+              class="form-control"
+              id="pwd"
+              placeholder="613-123-4567"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">
+              Book Appointment
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
