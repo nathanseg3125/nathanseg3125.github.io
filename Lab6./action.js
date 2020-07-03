@@ -1,6 +1,7 @@
+
+
 // jQuery that will "listen" to the html niceSurvey.html
 $(document).ready(function () {
-  console.log("FUCK");
   $("form").on("submit", function () {
     // var item = $('form input');
     // console.log(item.serializeArray());
