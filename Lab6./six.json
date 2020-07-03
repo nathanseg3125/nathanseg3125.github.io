@@ -1,0 +1,9 @@
+[
+  { "six": "apple", "count": 1 },
+  { "six": "pear", "count": 2 },
+  { "six": "papaya", "count": 1 },
+  { "six": "strawberry", "count": 2 },
+  { "six": "peach", "count": 2 },
+  { "six": "kiwi", "count": 1 },
+  { "six": "apples", "count": 4 }
+]

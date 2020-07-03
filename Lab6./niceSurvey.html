@@ -1,0 +1,122 @@
+<!-- https://getbootstrap.com/2.3.2/components.html-->
+<!-- THE ABOVE LINK WAS USED FOR ALL COMPONENTS.-->
+<!-- ALL ELSE IS ACCREDITED TO COURSE NOTES -->
+<!-- ALL ELSE IS ACCREDITED TO MY PREVIOUS LAB 1 CODE WE BUILT UPON -->
+
+
+<!DOCTYPE html>
+<html>
+
+<head >
+  <title>Nathan' s SEG3125 Survey</title>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">SEG3125 Survey</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://www.art.yale.edu">Yale Schoool of Art Website <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://nathanembaye.me">About Author</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/nathanembaye/">Author Linkedin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/nathanembaye/">Author Github</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>  <link rel="stylesheet" type="text/css" href="survey.css" media="screen"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">  
+
+</head>
+<body class="body">
+  <br/>
+    <div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="badui.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Yale School of Art</h5>
+          <p class="card-text">Mission Statement, Study Areas, People, Resources etc. can be found on the school website</p>
+        </div>
+      </div>
+    <div>
+      <br>
+    <div>
+      <form>
+      <div>
+        <label class="question" for="fname"><span class="badge badge-info">Are the names of the Graduating Class of 2020 readable?</span>
+        </label><br>
+        <input type="text" id="q1" name="q1"><br>
+      </div>
+        <br>
+      <div>
+        <p class="question"><span class="badge badge-info">What UI goal is incomplete in the Graduating Class of 2020 box?</span>
+        </p>
+        <input type="radio" id="efficiency" name="q2" value="efficiency">
+        <label class="answer" for="efficiency">Efficiency</label><br>
+        <input type="radio" id="usability" name="q2" value="usability">
+        <label class="answer" for="usability">Usability</label><br>
+        <input type="radio" id="consistency" name="q2" value="consistency">
+        <label class="answer" for="consistency">Consistency</label>
+      </div>
+        <br>
+        <br>
+      <div>
+        <p class="question"><span class="badge badge-info">What UI goal is best completed in the Graduating Class of 2020 box?</span>
+        </p>
+        <select  id="favorite">
+          <option value="efficiency" selected="selected">Efficiency</option>
+          <option value="usability">Usability</option>
+          <option value="consistency">Consistency</option>
+        </select>
+      </div>
+      <br>
+        <div>
+          <p class="question"><span class="badge badge-info">What method would you advise evaulation with for this website?</span>
+          </p>
+          <div class="answer">
+            <input type="checkbox" name="Color" value="Red">Survey<br>
+            <input type="checkbox" name="Color" value="Red">User Observation<br>
+            <input type="checkbox" name="Color" value="Red">Logs Analysis<br>
+          </div>
+        </div>
+        <br>
+          <div>
+            <label class="question" for="q5"><span class="badge badge-info">Do you have any comments?</span></label>
+            <br>
+              <textarea id="q5" name="q5" rows="4" cols="40">
+              I have something to say...
+              </textarea>
+            </div>
+          <div>
+            <p class="question"><span class="badge badge-info">Consider this: "The navigation menu placed on the shared website is intuitively placed."</span>
+            </p>
+            <input type="radio" id="efficiency" name="q2" value="efficiency">
+            <label class="answer" for="efficiency">Strongly Disagree</label><br>
+            <input type="radio" id="usability" name="q2" value="usability">
+            <label class="answer" for="usability">Disagree</label><br>
+            <input type="radio" id="consistency" name="q2" value="consistency">
+            <label class="answer" for="consistency">Somewhat Agree</label><br>
+            <input type="radio" id="consistency" name="q2" value="consistency">
+            <label class="answer" for="consistency">Agree</label><br>
+            <input type="radio" id="consistency" name="q2" value="consistency">
+            <label class="answer" for="consistency">Strongly Agree</label>
+          </div>
+          <br>
+          <div>
+            <button type="submit" class="btn btn-warning" id="bb">Submit</button>
+          </div>
+      </form>
+    </div>
+</body>
+</html>

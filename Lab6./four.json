@@ -1,0 +1,8 @@
+[
+  { "four": "monday", "count": 1 },
+  { "four": "tuesday", "count": 2 },
+  { "four": "wednesday", "count": 1 },
+  { "four": "thursday", "count": 2 },
+  { "four": "friday", "count": 2 },
+  { "four": "saturday", "count": 1 }
+]
